@@ -22,11 +22,11 @@
         <button class="btn2">clic-2</button>
     </ul>
     <ul>
-        <li>21</li>
         <li>22</li>
         <li>23</li>
         <li>24</li>
         <li>25</li>
+        <li>26</li>
         <button class="btn1 fff">click-1</button>
         <button class="btn2">clic-2</button>
     </ul>
@@ -65,17 +65,17 @@
     $(document).ready(function () {
         var yes = $('.btn1'),
             no = $('.btn3');
-            
-            console.log(yes)
-            console.log(no)
 
-            yes.on('click', function(){
-                console.log(100)
-            })
+        console.log(yes)
+        console.log(no)
 
-            no.on('click', function(){
-                console.log(500)
-            })
+        yes.on('click', function () {
+            console.log(100)
+        })
+
+        no.on('click', function () {
+            console.log(500)
+        })
 
     });
 </script>
